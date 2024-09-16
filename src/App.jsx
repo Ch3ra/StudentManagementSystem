@@ -13,8 +13,6 @@ import Subject from './Admin/Subject/Subject'
 import Settings from './Admin/Setting/Setting'
 import Login from './Admin/Auth/Login'
 
-
-
 const App = () => {
   return (
    <BrowserRouter>
