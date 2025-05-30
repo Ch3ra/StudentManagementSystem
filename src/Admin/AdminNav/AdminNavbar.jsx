@@ -150,9 +150,14 @@ const AdminNavbar = () => {
                     <FaChevronRight />
                   </div>
                   <li>
-                    <a href="#" className="block p-2 ">
+                    {/* <a href="#" className="block p-2 ">
                       Fees Group
-                    </a>
+                    </a> */}
+                    <Link to='/FeesGroup'>
+                     <span className="block p-2">
+                       Fees Group1
+                       </span>
+                    </Link>
                   </li>
                 </div>
                 <div className="flex">
@@ -160,9 +165,11 @@ const AdminNavbar = () => {
                     <FaChevronRight />
                   </div>
                   <li>
-                    <a href="#" className="block p-2 ">
+                  <Link to='/StudentFees'>
+                     <span className="block p-2">
                       Student Fees
-                    </a>
+                       </span>
+                    </Link>
                   </li>
                 </div>
 
@@ -171,9 +178,11 @@ const AdminNavbar = () => {
                     <FaChevronRight />
                   </div>
                   <li>
-                    <a href="#" className="block p-2 ">
-                      Expenses
-                    </a>
+                    <Link to='/Expenses'>
+                     <span className="block p-2">
+                     Expenses
+                       </span>
+                    </Link>
                   </li>
                 </div>
 
@@ -182,9 +191,11 @@ const AdminNavbar = () => {
                     <FaChevronRight />
                   </div>
                   <li>
-                    <a href="#" className="block p-2 ">
-                      Add Expenses
-                    </a>
+                    <Link to='/AddExpenses'>
+                     <span className="block p-2">
+                     Add Expenses
+                       </span>
+                    </Link>
                   </li>
                 </div>
               </ul>

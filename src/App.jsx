@@ -12,6 +12,12 @@ import AddTeacher from './Admin/Teachers/AddTeacher'
 import Subject from './Admin/Subject/Subject'
 import Settings from './Admin/Setting/Setting'
 import Login from './Admin/Auth/Login'
+import FeesGroup from './Admin/Account/FeesGroup'
+import StudentFees from './Admin/Account/StudentFees'
+import Expenses from './Admin/Account/Expenses'
+import AddExpenses from './Admin/Account/AddExpenses'
+
+
 
 const App = () => {
   return (
@@ -30,7 +36,11 @@ const App = () => {
     <Route path='/parentInfo' element={<Parents/>}/>
     <Route path='/subject' element={<Subject/>}/>
     <Route path='/setting' element={<Settings/>}/>
-   
+
+    <Route path="/FeesGroup" element={<FeesGroup />} />
+    <Route path="/StudentFees" element={<StudentFees />} />
+    <Route path="/Expenses" element={<Expenses />} />
+    <Route path="/AddExpenses" element={<AddExpenses />} />
    </Routes>
    </BrowserRouter>
   )
